@@ -9,7 +9,7 @@ function myFunction(){
     }
 
     else if(age >= 18 && country != "Ghana"){
-        voteable = "You can vote when you become a Ghanaian citizen";
+        voteable = "You cannot vote because you are not a Ghanaian citizen";
     }
 
     else if(age < 18 && country == "Ghana"){
